@@ -15,7 +15,7 @@
    * When did you complete this exercise?
         2018 October 26
    * How long did it take your team to complete this exercise?
-        TBD
+        ~1 hour
 
 ## Table of Contents
 
