@@ -1,4 +1,4 @@
-# xteam-exercise-2: https://github.com/<UserName>/<GitHubRepositoryName>
+# xteam-exercise-2: https://github.com/ACarpDM/turbo-palm-tree
 
 1. Edit the title of this document
    * Replace <UserName> with the user name of the team member who created shared repository
@@ -7,13 +7,15 @@
 
 2. Answer these questions
    * What are the GitHub usernames and names of your team members?
-       * GitHub username 1:       name 1:
-       * GitHub username 2:       name 2:
-       * GitHub username 3:       name 3:
-       * GitHub username 4:       name 4:
-       * GitHub username 5:       name 5:
-   * When did you complete this exercise? 
-   * How long did it take your team to complete this exercise? 
+       * GitHub username 1: dbradley3     name 1: Drew Bradley
+       * GitHub username 2: ianhirsch     name 2: Ian Hirsch
+       * GitHub username 3: xli842        name 3: Xian Shan
+       * GitHub username 4: James Wang    name 4: ACarpDM
+       
+   * When did you complete this exercise?
+        2018 October 26
+   * How long did it take your team to complete this exercise?
+        TBD
 
 ## Table of Contents
 
