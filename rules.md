@@ -26,6 +26,6 @@ Meet frequently and keep track of tasks that need to be completed at these meeti
 
 
 ## Add any other rules that your team establishes to help each other work effectively together
-Assign tsks in group meetings and follow up on previous tasks. Plan more meetings if needed.
+Assign tasks in group meetings and follow up on previous tasks. Plan more meetings if needed.
 
 
