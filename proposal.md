@@ -57,28 +57,28 @@ It will look very similar to the current Google Chrome layout. Users can drag ta
 The data would be a stored in a tree that represents the window-folder-tab hierarchy. The root would be the window node and its children would be either folder nodes or tab nodes. A tab node will always be a leaf node, but a folder node could be a leaf node. A folder as a leaf node would represent an empty named folder. Each folder node class will contain pointers to other nodes. The tab node would contain a list of URLs.
 
 Class TabHierarchy
-  WindowNode root
+  WindowNode root,
   *TabHierarchy keeps track of the relative positions of folders and tabs*
   
 Class WindowNode
-  String Name
-  ArrayList<FolderNode>
+  String Name,
+  ArrayList<FolderNode>,
   *WindowNode represents the entire Chrome window. Although we don't plan on adding window management, this allows us to include it should we need to*
  
 Class FolderNode
-  String Name
-  List<TabNode>
-  List<FolderNode>
-  draw()
+  String Name,
+  List<TabNode>,
+  List<FolderNode>,
+  draw(),
   *FolderNode represents a folder, which can contain either tabs or other folders*
  
 Class TabNode
-  String Name
-  String url
-  draw()
+  String Name,
+  String url,
+  draw(),
   *TabNode represents a tab, containing its URL as well as the name which displays on the tab GUI*
 
 Class GUIManager
-  TabHierarchy
+  TabHierarchy,
   *The GUIManager connects our datastructure with Chrome*
 
