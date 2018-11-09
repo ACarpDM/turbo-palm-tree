@@ -12,33 +12,44 @@ The primary output will be a non-obtrussive list of assignments, including due d
 
 For input, the only required data are assignment name and due date. Optionally, the user may input start/end dates, assignment details, associated class, and assignement type/category.
 
-Name: P4       Due date: 11/19        Started Working: 11/18       Submitted: 11/19       Type: Program         Class: CS400       
+Name: P4,       Due date: 11/19,       Started Working: 11/18,       Submitted: 11/19,       Type: Program,         Class: CS400,       
 
 See diagrams for actual appearance in GUI
 
 
 
-# Class Summary:
+## Class Summary:
 
-## GUI - Manages all the GUI components, communicates w/ Assignement List
+### GUI - Manages all the GUI components, communicates w/ Assignement List
 -createAssignment()
 -loadData()
 -updateAssignment()
 -save()
 -load()
 
-## AssignmentList - Manages all the data
+### AssignmentList - Manages all the data
 -createAssignment(String[] data)
 -updateAssignment(int id, String[] data)
 -getAssignements(filter=None)
 
-## Assignment - Stores data for a single assignment
+### Assignment - Stores data for a single assignment
 -getData()
 -setData()
 
 
-## Save - saves data
+### Save - saves data
 -save(AssignmentList)
 
-## Load - loads data
+### Load - loads data
 -load(String fileLocation)
+
+## Implementation Phases
+### Phase 1
+Add assignment, view assignments
+### Phase 2
+Edit/delete assignments
+### Phase 3
+Filter assignments
+### Future
+Load/Save
+Estimate completion times
