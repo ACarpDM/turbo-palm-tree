@@ -1,4 +1,4 @@
-#Assignment Manager
+# Assignment Manager
 
 James Wang, Ian Hirsch, Xiao Shan, Drew Bradley
 
@@ -18,27 +18,27 @@ See diagrams for actual appearance in GUI
 
 
 
-#Class Summary:
+# Class Summary:
 
-##GUI - Manages all the GUI components, communicates w/ Assignement List
+## GUI - Manages all the GUI components, communicates w/ Assignement List
 -createAssignment()
 -loadData()
 -updateAssignment()
 -save()
 -load()
 
-##AssignmentList - Manages all the data
+## AssignmentList - Manages all the data
 -createAssignment(String[] data)
 -updateAssignment(int id, String[] data)
 -getAssignements(filter=None)
 
-##Assignment - Stores data for a single assignment
+## Assignment - Stores data for a single assignment
 -getData()
 -setData()
 
 
-##Save - saves data
+## Save - saves data
 -save(AssignmentList)
 
-##Load - loads data
+## Load - loads data
 -load(String fileLocation)
